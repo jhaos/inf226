@@ -1,10 +1,10 @@
 # inf226
 ## Assignment 1
 
-'
-#include < a s s e r t . h>
-#include < s t d i o . h>
-#include < s t d l i b . h>
+'''C
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main( int argc , char * * argv ) {
 
@@ -27,4 +27,4 @@ else {
 
 return 0 ;
 }
-'
+'''
