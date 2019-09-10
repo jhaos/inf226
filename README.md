@@ -1,7 +1,7 @@
 # inf226
 ## Assignment 1
 
-'''C
+```C
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,4 +27,4 @@ else {
 
 return 0 ;
 }
-'''
+```
