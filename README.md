@@ -37,6 +37,7 @@ C language has some functions in it's libraries that can produce several buffer 
 
 Here is the exploit used to get the flag with comments about why I chose the offset, then I create the cyclic and then I add the value that I want to overwrite the var check in little endian and send it to the server. I will receive the data in out_1.txt that is upload linked below as well.
 [Exploit with pwntools](https://github.com/jhaos/inf226/blob/master/pwn/entregar/pwn1.py)
+
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/pwn/entregar/out_1.txt)
 
 ### 0x02
@@ -72,6 +73,7 @@ C language has some functions in it's libraries that can produce several buffer 
 Here is the exploit used to get the flag. After send a cyclic pattern I saw that the RSP has the substring 'kaaa' at the beginning and with the funcion of pwntools cyclic_find I can know the offset and I can send the correct lenght of pattern and after I will add the address of the do_system() function to overwrite RIP and finally send to the server the payload. I will receive the data in out_2.txt that is upload linked below as well.
 
 [Exploit with pwntools](https://github.com/jhaos/inf226/blob/master/pwn/entregar/pwn2_script.py)
+
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/pwn/entregar/out_2.txt)
 
 ### 0x03
@@ -140,4 +142,5 @@ In the code above I can  see the sql query can check that it could exist a vulne
 #### Description of the script
 I will use requests library to make the request in the webpage using admin as a keyword because it is a common word to the user administrator and I'll send the request adding a quote and '#' at the end which makes that the request will ignore the rest of the query thats why don't need a real password.
 [Exploit with python and request library](https://github.com/jhaos/inf226/tree/master/sqli/sqli_1.py)
+
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/sqli/out_1.txt)
