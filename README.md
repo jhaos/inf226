@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 #### Description of the vulnerability
 
-In the code above I can  see the sql query can check that it could exist a vulnerability because if I try to post the name and the password using unpaired quotes it responses to the log console that is not the response on the code so I can suspect that I could do sqli.
+In the code above I can  see the sql query can check that it could exist a vulnerability because if I try to post the name and the password using unpaired quotes it responses to the log console that is not the response that it supposed to be so I can suspect that I could do sqli. Addicionally using OWASP-ZAP confirm it so I can try to make an sql attack.
 
 #### Description of the script
 I will use requests library to make the request in the webpage using admin as a keyword because it is a common word to the user administrator and I'll send the request adding a quote and '#' at the end which makes that the request will ignore the rest of the query thats why don't need a real password.
