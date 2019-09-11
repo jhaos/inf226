@@ -112,24 +112,24 @@ def signIn():
   _name = request.form.get('inputName')
   _password = request.form.get('inputPassword')
   
-if not _name or not _password:
-  error = {'message':'<span>Some fields are missing</span>'}
-  return json.dumps(error)
+  if not _name or not _password:
+    error = {'message':'<span>Some fields are missing</span>'}
+    return json.dumps(error)
 
-if _name and _password:
-  (connection, cursor) = opendb()
+  if _name and _password:
+    (connection, cursor) = opendb()
   
-  req = "SELECT * FROM tlb_user WHERE login='{}' AND password='{}'"
-  cursor.execute(req.format(_name, _password))
+    req = "SELECT * FROM tlb_user WHERE login='{}' AND password='{}'"
+    cursor.execute(req.format(_name, _password))
   
-  data = [(login, password) for (login, password) in cursor]
-  closedb(connection , cursor) 
-  
-  if len(data) != 0 and data[0][0] == ’admin’:
-    return json.dumps({’gg’:’GG! Flag: {}!’.format(flag)})
-else:
-  error = {’error’:’No user found with these credentials.’}
-  return json.dumps(error)
+    data = [(login, password) for (login, password) in cursor]
+    closedb(connection , cursor) 
+
+    if len(data) != 0 and data[0][0] == ’admin’:
+      return json.dumps({’gg’:’GG! Flag: {}!’.format(flag)})
+    else:
+      error = {’error’:’No user found with these credentials.’}
+      return json.dumps(error)
 
 if __name__ == "__main__":
   app.run(host = ’0.0.0.0’, port =8001)
