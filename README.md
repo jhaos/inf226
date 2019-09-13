@@ -63,7 +63,7 @@ f.write(c.recvall()) #receiving the results and writting them in out.txt.
 
 [Exploit with pwntools](https://github.com/jhaos/inf226/blob/master/pwn/entregar/pwn1.py)
 
-##### INF226{fr33d0m_v4r14bl3_s4v3d_th3_d4y}
+##### Flag is: INF226{fr33d0m_v4r14bl3_s4v3d_th3_d4y}
 
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/pwn/entregar/out_1.txt)
 
@@ -125,9 +125,9 @@ f.write(c.recvall()) #receiving the results and writting them in out.txt.
 
 [Exploit with pwntools](https://github.com/jhaos/inf226/blob/master/pwn/entregar/pwn2_script.py)
 
-##### INF226{gg_f0r_c0ntr0ll1ng_31P}
+##### Flag is: INF226{gg_f0r_c0ntr0ll1ng_31P}
 
-[Flag received from the server](https://github.com/jhaos/inf226/blob/master/pwn/entregar/out_2.txt)
+Flag received from the server](https://github.com/jhaos/inf226/blob/master/pwn/entregar/out_2.txt)
 
 ### 0x03
 
@@ -212,7 +212,7 @@ f.write(result.text)
 
 [Exploit with python and request library](https://github.com/jhaos/inf226/tree/master/sqli/sqli_1.py)
 
-##### {"gg": "GG! Flag: inf226{s0_y0u_c4n_b4s1c_5q71}!"}
+##### Flag is: inf226{s0_y0u_c4n_b4s1c_5q71}
 
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/sqli/out_1.txt)
 
@@ -328,7 +328,7 @@ print(flag)
 
 [Exploit with python and request library](https://github.com/jhaos/inf226/tree/master/sqli/sqli_2.py)
 
-##### INF226{PR3TTY_70N6_P4$$W0RD_W17H_@_W31RD_CH4R537}
+##### Flag is: INF226{PR3TTY_70N6_P4$$W0RD_W17H_@_W31RD_CH4R537}
 
 [Flag received from the server](https://github.com/jhaos/inf226/blob/master/sqli/out_2.txt)
 
