@@ -1,4 +1,4 @@
-# inf226
+# Inf226
 ## Assignment 1
 
 ### 0x01
