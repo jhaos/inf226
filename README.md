@@ -1,4 +1,5 @@
 # Inf226
+Assignmentes to course of Software Security in University of Bergen.
 ## Assignment 1
 
 ### 0x01
