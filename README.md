@@ -9,4 +9,4 @@ Assignmentes to course of Software Security in University of Bergen.
 
 ## Assignment 3: Securing an Insecure Forum.
 
-[Assignment 3: Insecure Forum] (https://github.com/jhaos/Inforum_INF226-UIB)
+[Assignment 3: Insecure Forum](https://github.com/jhaos/Inforum_INF226-UIB)
